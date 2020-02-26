@@ -3,49 +3,50 @@ import java.util.*;
 public class P_functionDevelop {
 
     public static int[] solution(int[] progresses, int[] speeds) {
-        int[] answer = {};
-        List<Integer> answer2 = new ArrayList<>();
-        Queue<Integer> queue = new LinkedList<>();
+        int [] answer = {};
+        int [] temp = new int[progresses.length];
+        List<Integer> list = new ArrayList<Integer>();
 
+        // 매칭되는 task마다 진행도를 매칭하여 몇일이 걸려야하는지 계산
         for(int i=0; i<progresses.length; i++) {
+            int count = 0;
             int sum = progresses[i];
-//            if(sum + speeds[i] <= 100) {
-                int index = 0;
-                while(sum < 100) {
-                    sum += speeds[i];
-                    index++;
-                }
-                queue.add(index);
-//            }
+            while (sum < 100) {
+                sum += speeds[i];
+                count++;
+            }
+            temp[i] = count;
         }
-        System.out.println(queue);
-        int j = 0;
-        int max = queue.poll(); // 7 // 9
-        answer2.add(j,1);
-        while (queue.peek() != null) {
-            int temp = queue.poll();
-            if(max > temp) { // 7 > 3
-                int x = answer2.get(j);
-                answer2.set(j, x+1); //2
+
+        // 기준값을 설정하여 뒤에 자신보다 빨리 끝난 일이 있으면 자기의 카운트 ++
+        // 자신보다 큰 값이 나오면 list에 add하고 피봇값 변
+        int pivot = temp[0];
+        int count = 1;
+        for(int j=1; j<temp.length; j++) {
+            if(temp[j] <= pivot) {
+                count++;
             } else {
-                answer2.add(j+1, 1);
-                max = temp;
-                j++;
+                list.add(count);
+                pivot = temp[j];
+                count = 1;
             }
         }
-        answer = new int[answer2.size()];
-        for(int k = 0; k<answer2.size(); k++) {
-            System.out.println(answer2.get(k));
-            answer[k] = answer2.get(k);
+        list.add(count);
+
+        answer = new int[list.size()];
+        for(int k=0; k<list.size(); k++) {
+            answer[k] = list.get(k);
         }
 
         return answer;
     }
 
     public static void main (String[] args) {
-        int[] progresses = {93, 30, 55, 60, 40, 65};
-        int[] speeds = {1, 30, 5, 10, 60, 7};
+        int[] progresses = {40, 93, 30, 55, 60, 65};
+        int[] speeds = {60, 1, 30, 5, 10, 7};
+        // [1, 2, 3]
 
+        // [2,1]
         solution(progresses, speeds);
 
     }
