@@ -19,7 +19,7 @@ public class P_functionDevelop {
         }
 
         // 기준값을 설정하여 뒤에 자신보다 빨리 끝난 일이 있으면 자기의 카운트 ++
-        // 자신보다 큰 값이 나오면 list에 add하고 피봇값 변
+        // 자신보다 큰 값이 나오면 list에 add하고 피봇값 변경
         int pivot = temp[0];
         int count = 1;
         for(int j=1; j<temp.length; j++) {
