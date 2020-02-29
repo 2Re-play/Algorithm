@@ -27,7 +27,7 @@ public class G {
 
     public static void main (String [] args) {
 
-        System.out.println((int)(Math.random()*20)+2);
+        System.out.println(test("aaabb"));
 
 
     }
