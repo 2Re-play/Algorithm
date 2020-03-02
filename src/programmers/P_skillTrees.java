@@ -1,3 +1,5 @@
+package programmers;
+
 public class P_skillTrees {
 
         public static int solution(String skill, String[] skill_trees) {
