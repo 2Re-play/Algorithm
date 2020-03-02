@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekJoon/B_2798.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programmers/P_makeMaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekJoon/B_2309.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jay's Algorithm/programmers/P_findPrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jay's Algorithm/programmers/P_findPrimeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programmers/P_findPrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programmers/P_findPrimeNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,22 +31,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="48" />
+          <entry key="java" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="48" />
+          <entry key="JAVA" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="31017" />
+          <entry key="java" value="31807" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="31017" />
+          <entry key="JAVA" value="31807" />
         </counts>
       </usages-collector>
     </session>
@@ -83,11 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJoon/B_2798.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="434">
               <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJoon/B_2309.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="40" selection-start-line="40" selection-end-line="48" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,15 +124,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJoon/B_2750.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -215,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/baekJoon/B_10972.java" />
         <option value="$PROJECT_DIR$/src/programmers/P_makeMaxNumber.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/B_2798.java" />
+        <option value="$PROJECT_DIR$/src/baekJoon/B_2309.java" />
       </list>
     </option>
   </component>
@@ -265,7 +266,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583151752510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583163721745" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -290,9 +291,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.B_2798">
+  <component name="RunManager" selected="Application.B_2309">
     <configuration name="B_10972" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJoon.B_10972" />
+      <module name="Jay's Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B_2309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJoon.B_2309" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -343,33 +357,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.Permutation" />
-      <module name="Jay's Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.P_findPrimeNumber (1)" />
       <item itemvalue="Application.B_10972" />
       <item itemvalue="Application.P_makeMaxNumber" />
       <item itemvalue="Application.B_2798" />
+      <item itemvalue="Application.B_2309" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B_2309" />
         <item itemvalue="Application.B_2798" />
         <item itemvalue="Application.P_makeMaxNumber" />
         <item itemvalue="Application.B_10972" />
         <item itemvalue="Application.P_findPrimeNumber (1)" />
-        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
@@ -393,16 +394,15 @@
       <workItem from="1582012492617" duration="3024000" />
       <workItem from="1582017111962" duration="2157000" />
       <workItem from="1582620697651" duration="5964000" />
-      <workItem from="1582648733793" duration="26023000" />
+      <workItem from="1582648733793" duration="27764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101502000" />
+    <option name="totallyTimeSpent" value="103243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="964" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17338218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -892,8 +892,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/B_2798.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="434">
           <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/B_2309.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="40" selection-start-line="40" selection-end-line="48" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
