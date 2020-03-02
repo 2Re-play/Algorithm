@@ -1,3 +1,5 @@
+package practice;
+
 public class QuickSort {
 
     public static int[] quickSort (int[] array, int l, int r) {

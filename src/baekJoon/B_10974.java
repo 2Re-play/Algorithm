@@ -2,6 +2,7 @@ package baekJoon;
 
 import java.util.Scanner;
 
+// [순열]
 public class B_10974 {
 
     public static void solution () {

@@ -1,3 +1,5 @@
+package daily;
+
 public class Daily20200209 {
 
     public static void solution (String[] input) {

@@ -1,77 +1,65 @@
 package programmers;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class P_findPrimeNumber {
 
-    // 프로그래머스 소수찾기
-
     public static int solution(String numbers) {
+        int answer = 0;
+        String [] arr = numbers.split("");
+        String [] output = new String[arr.length];
+        boolean [] visited = new boolean[arr.length];
+        ArrayList<Integer> list = new ArrayList<Integer>();
 
-        int maxNum = makeMaxNum(numbers.toCharArray());
-        boolean[] primeNum = findPrimeNum(maxNum);
 
-        return findMakePossiblePrimeNum(primeNum, maxNum);
-    }
-
-    private static int makeMaxNum(char[] inputNum) {
-        Arrays.sort(inputNum);
-        int len = inputNum.length;
-        for (int i = 0; i < len/2; i++) {
-            char temp = inputNum[i];
-            inputNum[i] = inputNum[len - 1 - i];
-            inputNum[len - 1 - i] = temp;
+        for(int j=0; j<arr.length; j++) {
+            perm(arr, output, list, visited,0, arr.length, j+1);
         }
-        return Integer.parseInt(new String(inputNum));
-    }
 
-    private static boolean[] findPrimeNum(int maxNum) {
-        boolean[] result = new boolean[maxNum + 1];
-        for (int i = 2; i < Math.sqrt(maxNum); i++) {
-            if (!result[i]) {
-                for (int j = i * 2; j <= maxNum; j += i) {
-                    result[j] = true;
+        System.out.println(list);
+
+        int count = 0;
+        for(int i=0; i<list.size(); i++) {
+            boolean status = true;
+            if(list.get(i) == 0 || list.get(i) == 1){
+                continue;
+            } else {
+                for(int k=2; k<list.get(i); k++) {
+                    if(list.get(i) % k ==0){
+                        status = false;
+                        break;
+                    }
                 }
+                if(status) count++;
             }
         }
-        return result;
+
+        return count;
     }
 
-    private static int findMakePossiblePrimeNum(boolean[] primeNum, int maxNum) {
-        int possiblePrimeNumCount = 0;
+    public static void perm (String [] arr,  String [] output, ArrayList<Integer> list, boolean[] visited, int depth, int n, int r ) {
 
-        for (int primeNumIndex = 2; primeNumIndex <= maxNum; primeNumIndex++) {
-            if (!primeNum[primeNumIndex] && isPossible(maxNum, primeNumIndex)) {
-                possiblePrimeNumCount++;
+        if(depth == r) {
+            String sum = "";
+            for(int i=0; i<r; i++) {
+                sum += output[i];
+            }
+            if(list.contains(Integer.parseInt(sum)) == false) list.add(Integer.parseInt(sum));
+            sum = "";
+        }
+
+        for(int i=0; i<n; i++) {
+            if(visited[i] != true) {
+                visited[i] = true;
+                output[depth] = arr[i];
+                perm(arr, output,list, visited,depth+1, arr.length, r);
+                visited[i] = false;
             }
         }
-        return possiblePrimeNumCount;
-    }
-
-    private static boolean isPossible(int maxNum, int primeNum) {
-        int[] numCount = countAvailableNums(maxNum);
-
-        while(primeNum != 0) {
-            if (numCount[primeNum % 10] <= 0) return false;
-            numCount[primeNum % 10]--;
-            primeNum /= 10;
-        }
-
-        return true;
-    }
-
-    private static int[] countAvailableNums(int maxNum) {
-        char[] str = String.valueOf(maxNum).toCharArray();
-        int[] numCount = new int[10];
-        for (int i = 0; i < str.length; i++) {
-            numCount[str[i] - '0']++;
-        }
-        return numCount;
     }
 
     public static void main (String [] args) {
-        System.out.println(solution("17")); // 3
+        System.out.println(solution("011")); // 3
     }
 }

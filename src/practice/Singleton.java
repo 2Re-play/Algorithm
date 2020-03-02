@@ -1,3 +1,5 @@
+package practice;
+
 public class Singleton {
 
     // double checked locking

@@ -1,3 +1,5 @@
+package practice;
+
 public class HeapSort {
     private static int[] data;
     private static int number = 10;

@@ -1,3 +1,5 @@
+package practice;
+
 import java.util.*;
 
 public class Test02 implements Runnable{
