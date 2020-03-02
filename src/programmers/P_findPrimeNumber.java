@@ -1,7 +1,7 @@
 package programmers;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class P_findPrimeNumber {
 
@@ -12,12 +12,9 @@ public class P_findPrimeNumber {
         boolean [] visited = new boolean[arr.length];
         ArrayList<Integer> list = new ArrayList<Integer>();
 
-
         for(int j=0; j<arr.length; j++) {
             perm(arr, output, list, visited,0, arr.length, j+1);
         }
-
-        System.out.println(list);
 
         int count = 0;
         for(int i=0; i<list.size(); i++) {
