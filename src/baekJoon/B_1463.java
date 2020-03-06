@@ -22,12 +22,9 @@ public class B_1463 {
         }
         System.out.println(dp[n]);
         sc.close();
-
-
     }
 
     public static void main (String [] args) {
-
         solution();
     }
 }
