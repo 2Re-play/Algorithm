@@ -1,4 +1,4 @@
-package baekJoon;
+package baekJoon.Sort;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

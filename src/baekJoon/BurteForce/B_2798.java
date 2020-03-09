@@ -1,4 +1,4 @@
-package baekJoon;
+package baekJoon.BurteForce;
 
 import java.util.Scanner;
 

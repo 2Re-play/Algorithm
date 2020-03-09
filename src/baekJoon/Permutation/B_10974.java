@@ -1,4 +1,4 @@
-package baekJoon;
+package baekJoon.Permutation;
 
 import java.util.Scanner;
 
