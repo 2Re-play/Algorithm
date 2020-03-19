@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class B_1010 {
 
+    // 다리 놓기
     public static void solution () {
 
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
+        long[] result = new long[T];
 
         for(int i=0; i<T; i++) {
 
@@ -16,23 +18,24 @@ public class B_1010 {
 
             long[][] dp = new long[n+1][m+1];
 
-//            dp[1][1] = 1;
-//            dp[1][2] = 2;
-//            dp[1][3] = 3;
-//            dp[2][2] = 1;
-//            dp[2][3] = 3;
-//            dp[2][4] = 5;
+            for(int temp=1; temp<=m; temp++){
+                dp[1][temp] = temp;
+            }
 
 
-            for(int j=1; j<=n; j++) {
+            for(int j=2; j<=n; j++) {
                 for(int k=j; k<=m; k++) {
-                    dp[j][k] = dp[j][k-1] + j;
+                    for(int t = k-1; t>=j-1; t--) {
+                        dp[j][k] += dp[j-1][t];
+                    }
                 }
             }
 
-            System.out.println(dp[n][m]);
+            result[i] = dp[n][m];
+        }
 
-
+        for(long item : result) {
+            System.out.println(item);
         }
     }
 
