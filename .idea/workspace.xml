@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/baekJoon/DP/B_2293.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekJoon/DP/B_1010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekJoon/DP/B_1010.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,23 +36,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="133" />
+          <entry key="java" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="133" />
+          <entry key="JAVA" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="58019" />
+          <entry key="java" value="58518" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="58019" />
+          <entry key="JAVA" value="58518" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -76,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_9465.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="505">
               <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="e#1013#1014#0" expanded="true" />
@@ -86,20 +86,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_1010.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="27" column="18" selection-end-line="45" />
+            <state relative-caret-position="255">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_2163.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_2293.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/P_findPrimeNumber.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/B_10974.java" />
         <option value="$PROJECT_DIR$/src/practice/Permutation.java" />
         <option value="$PROJECT_DIR$/src/programmers/P_findPrimeNumber.java" />
@@ -233,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/baekJoon/BFS/B_2178.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/DP/B_9465.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/DP/B_1010.java" />
+        <option value="$PROJECT_DIR$/src/baekJoon/DP/B_2293.java" />
       </list>
     </option>
   </component>
@@ -297,7 +301,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jaehyun/dev/Jay's Algorithm/src/baekJoon/DP/B_1003.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584634590064" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584696448573" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -322,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.B_1010">
+  <component name="RunManager" selected="Application.B_2293">
     <configuration name="B_1010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJoon.DP.B_1010" />
       <module name="Jay's Algorithm" />
@@ -349,12 +353,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_2163" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJoon.DP.B_2163" />
+    <configuration name="B_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJoon.BFS.B_2178" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekJoon.DP.*" />
+          <option name="PATTERN" value="baekJoon.BFS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,12 +366,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_2178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJoon.BFS.B_2178" />
+    <configuration name="B_2293" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJoon.DP.B_2293" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekJoon.BFS.*" />
+          <option name="PATTERN" value="baekJoon.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,19 +393,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.B_2163" />
       <item itemvalue="Application.B_1260" />
       <item itemvalue="Application.B_2178" />
       <item itemvalue="Application.B_9465" />
       <item itemvalue="Application.B_1010" />
+      <item itemvalue="Application.B_2293" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B_2293" />
         <item itemvalue="Application.B_1010" />
         <item itemvalue="Application.B_9465" />
         <item itemvalue="Application.B_2178" />
         <item itemvalue="Application.B_1260" />
-        <item itemvalue="Application.B_2163" />
       </list>
     </recent_temporary>
   </component>
@@ -431,12 +435,12 @@
       <workItem from="1583567957703" duration="50891000" />
       <workItem from="1584160004203" duration="2174000" />
       <workItem from="1584424724013" duration="7174000" />
-      <workItem from="1584437213327" duration="10455000" />
+      <workItem from="1584437213327" duration="13003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184798000" />
+    <option name="totallyTimeSpent" value="187346000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,8 +464,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3462857" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3737143" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3462857" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3737143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
@@ -713,17 +717,16 @@
           <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekJoon/DP/B_2293.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/P_HIndex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/programmers/P_stockPrice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1051,7 +1054,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_9465.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="505">
           <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="e#1013#1014#0" expanded="true" />
@@ -1062,8 +1065,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_1010.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="27" column="18" selection-end-line="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_2293.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
