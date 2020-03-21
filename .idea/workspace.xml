@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekJoon/DP/B_11057.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekJoon/DP/B_11057.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekJoon/DP/B_11057.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,12 +47,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="58588" />
+          <entry key="java" value="58984" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="58588" />
+          <entry key="JAVA" value="58984" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11057.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -297,7 +297,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jaehyun/dev/Jay's Algorithm/src/baekJoon/DP/B_1003.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584696633394" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584803477867" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -322,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.B_2293">
+  <component name="RunManager" selected="Application.B_11057">
     <configuration name="B_1010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJoon.DP.B_1010" />
       <module name="Jay's Algorithm" />
@@ -336,12 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJoon.BFS.B_1260" />
+    <configuration name="B_11057" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJoon.DP.B_11057" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekJoon.BFS.*" />
+          <option name="PATTERN" value="baekJoon.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,19 +389,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.B_1260" />
       <item itemvalue="Application.B_2178" />
       <item itemvalue="Application.B_9465" />
       <item itemvalue="Application.B_1010" />
       <item itemvalue="Application.B_2293" />
+      <item itemvalue="Application.B_11057" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B_11057" />
         <item itemvalue="Application.B_2293" />
         <item itemvalue="Application.B_1010" />
         <item itemvalue="Application.B_9465" />
         <item itemvalue="Application.B_2178" />
-        <item itemvalue="Application.B_1260" />
       </list>
     </recent_temporary>
   </component>
@@ -431,12 +431,12 @@
       <workItem from="1583567957703" duration="50891000" />
       <workItem from="1584160004203" duration="2174000" />
       <workItem from="1584424724013" duration="7174000" />
-      <workItem from="1584437213327" duration="13402000" />
+      <workItem from="1584437213327" duration="14232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187745000" />
+    <option name="totallyTimeSpent" value="188575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,7 +449,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="967" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18437119" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1072,8 +1071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11057.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="255">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
