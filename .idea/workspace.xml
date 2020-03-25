@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekJoon/BurteForce/B_2231.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekJoon/BurteForce/B_14502.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,7 +22,7 @@
     <session id="2122011327">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
@@ -30,29 +30,29 @@
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="145" />
+          <entry key="java" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="145" />
+          <entry key="JAVA" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="60854" />
+          <entry key="java" value="62693" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="60854" />
+          <entry key="JAVA" value="62693" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -61,39 +61,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_1699.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2231.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding>
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2231.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_14502.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="23" column="43" lean-forward="true" selection-end-line="38" />
-              <folding>
-                <element signature="e#745#746#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="376">
+              <caret line="74" column="51" lean-forward="true" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2309.java">
+        <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2798.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -102,11 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11055.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-              <folding>
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-              </folding>
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -115,11 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_1065.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-              <folding>
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-              </folding>
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -127,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11053.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="510">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -193,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJoon/B_2309.java" />
         <option value="$PROJECT_DIR$/src/programmers/P_makeMaxNumber.java" />
         <option value="$PROJECT_DIR$/src/programmers/P_rightBlock.java" />
         <option value="$PROJECT_DIR$/src/programmers/P_stockPrice.java" />
@@ -244,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/baekJoon/DP/B_11055.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/BurteForce/B_1065.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/BurteForce/B_2231.java" />
+        <option value="$PROJECT_DIR$/src/baekJoon/BurteForce/B_14502.java" />
       </list>
     </option>
   </component>
@@ -254,9 +235,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="840" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="967" />
+    <option name="width" value="840" />
+    <option name="height" value="971" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,13 +276,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jaehyun/dev/Jay's Algorithm/src/baekJoon/BurteForce/B_2309.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585034061587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585115760765" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -326,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.B_2231">
+  <component name="RunManager" selected="Application.B_14502">
     <configuration name="B_1065" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJoon.BurteForce.B_1065" />
       <module name="Jay's Algorithm" />
@@ -353,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="B_11057" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJoon.DP.B_11057" />
+    <configuration name="B_14502" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJoon.BurteForce.B_14502" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekJoon.DP.*" />
+          <option name="PATTERN" value="baekJoon.BurteForce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,19 +375,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.B_11057" />
       <item itemvalue="Application.B_1699" />
       <item itemvalue="Application.B_11055" />
       <item itemvalue="Application.B_1065" />
       <item itemvalue="Application.B_2231" />
+      <item itemvalue="Application.B_14502" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B_14502" />
         <item itemvalue="Application.B_2231" />
         <item itemvalue="Application.B_1065" />
         <item itemvalue="Application.B_11055" />
         <item itemvalue="Application.B_1699" />
-        <item itemvalue="Application.B_11057" />
       </list>
     </recent_temporary>
   </component>
@@ -436,12 +418,13 @@
       <workItem from="1584160004203" duration="2174000" />
       <workItem from="1584424724013" duration="7174000" />
       <workItem from="1584437213327" duration="16636000" />
-      <workItem from="1584957375418" duration="5626000" />
+      <workItem from="1584957375418" duration="6098000" />
+      <workItem from="1585111474234" duration="3365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196605000" />
+    <option name="totallyTimeSpent" value="200442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,10 +436,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="967" extended-state="0" />
+    <frame x="840" y="23" width="840" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18620269" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3859649" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -465,14 +448,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3462857" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34584755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3737143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33257142" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33105803" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3257143" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -734,13 +717,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/programmers/P_123country.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/Sort/B_2750.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -993,17 +969,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2798.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_9465.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_1699.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2309.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11055.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11053.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1035,64 +1039,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11053.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2798.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11055.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2309.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_1699.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_1065.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-          <folding>
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-          </folding>
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2231.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="23" column="43" lean-forward="true" selection-end-line="38" />
-          <folding>
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_14502.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="74" column="51" lean-forward="true" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
         </state>
       </provider>
     </entry>
