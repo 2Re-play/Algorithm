@@ -2,7 +2,7 @@ package baekJoon.BurteForce;
 
 public class B_6603 {
 
-    // 로
+    // 로또
     public static void solution () {
 
     }
@@ -11,4 +11,3 @@ public class B_6603 {
         solution();
     }
 }
-또
