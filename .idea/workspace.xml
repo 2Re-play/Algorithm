@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/naver/hackday_2020_summer_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekJoon/DP/B_2294.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekJoon/DP/B_2294.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +22,7 @@
     <session id="2122011327">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
@@ -31,45 +31,36 @@
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="165" />
+          <entry key="java" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="165" />
+          <entry key="JAVA" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="3" />
-          <entry key="java" value="67042" />
+          <entry key="dummy" value="6" />
+          <entry key="java" value="68373" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="67042" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="JAVA" value="68373" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_6603.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11048.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,14 +70,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_2294.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="253">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/naver/hackday_2020_summer_01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding>
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#260#269#0" expanded="true" />
+                <element signature="e#275#284#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,11 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_7568.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
-              <caret line="26" column="9" lean-forward="true" selection-end-line="38" />
-              <folding>
-                <element signature="e#788#789#0" expanded="true" />
-                <element signature="e#814#815#0" expanded="true" />
-              </folding>
+              <caret line="26" column="9" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -187,7 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJoon/B_1149.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/B_2579.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/Permutation/B_10974.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/Sort/B_2750.java" />
@@ -238,6 +233,7 @@
         <option value="$PROJECT_DIR$/src/baekJoon/DP/B_11048.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/BurteForce/B_7568.java" />
         <option value="$PROJECT_DIR$/src/baekJoon/DP/B_2294.java" />
+        <option value="$PROJECT_DIR$/src/naver/hackday_2020_summer_01.java" />
       </list>
     </option>
   </component>
@@ -258,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -276,33 +271,20 @@
               <item name="Jay's Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Jay's Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="baekJoon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jay's Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jay's Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="baekJoon" type="462c0819:PsiDirectoryNode" />
-              <item name="BurteForce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Jay's Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Jay's Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="baekJoon" type="462c0819:PsiDirectoryNode" />
-              <item name="DP" type="462c0819:PsiDirectoryNode" />
+              <item name="naver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jaehyun/dev/Jay's Algorithm/src/baekJoon/BurteForce/B_2309.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586672465193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586733974681" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -327,22 +309,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.B_2294">
+  <component name="RunManager" selected="Application.hackday_2020_summer_01">
     <configuration name="B_11048" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJoon.DP.B_11048" />
-      <module name="Jay's Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekJoon.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="B_2167" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJoon.DP.B_2167" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -393,20 +362,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="hackday_2020_summer_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="naver.hackday_2020_summer_01" />
+      <module name="Jay's Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="naver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.B_2167" />
       <item itemvalue="Application.B_6603" />
       <item itemvalue="Application.B_11048" />
       <item itemvalue="Application.B_7568" />
       <item itemvalue="Application.B_2294" />
+      <item itemvalue="Application.hackday_2020_summer_01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.hackday_2020_summer_01" />
         <item itemvalue="Application.B_2294" />
         <item itemvalue="Application.B_7568" />
         <item itemvalue="Application.B_11048" />
         <item itemvalue="Application.B_6603" />
-        <item itemvalue="Application.B_2167" />
       </list>
     </recent_temporary>
   </component>
@@ -443,12 +425,13 @@
       <workItem from="1585208449802" duration="5154000" />
       <workItem from="1585813240600" duration="3224000" />
       <workItem from="1586436724977" duration="409000" />
-      <workItem from="1586519497069" duration="3557000" />
+      <workItem from="1586519497069" duration="3910000" />
+      <workItem from="1586705294096" duration="3134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215091000" />
+    <option name="totallyTimeSpent" value="218578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,7 +446,7 @@
     <frame x="0" y="23" width="1680" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17521368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17704518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,7 +455,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34545454" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34545454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3737143" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -741,13 +724,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_2579.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_9461.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -839,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" selection-start-line="45" selection-end-line="50" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,6 +986,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_7568.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="9" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2798.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1058,24 +1038,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_7568.java">
+    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_2294.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="9" lean-forward="true" selection-end-line="38" />
-          <folding>
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_2294.java">
+    <entry file="file://$PROJECT_DIR$/src/naver/hackday_2020_summer_01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="238">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#260#269#0" expanded="true" />
+            <element signature="e#275#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
