@@ -50,7 +50,7 @@ public class hackday_2020_summer_01 {
         int n2 = 7;
         int[][] delivery1 = {{1,3,1}, {3,5,0}, {5,4,0}, {2,5,0}}; //"0?0?X?"
         int[][] delivery2 = {{5,6,0}, {1,3,1}, {1,5,0}, {7,6,0}, {3,7,1}, {2,5,0}}; //"0?0?XX0"
-        solution(n1, delivery1);
+        solution(n2, delivery2);
 
     }
 }
