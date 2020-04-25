@@ -29,7 +29,7 @@ public class B_1966 {
             int count = 1;
             while(true) {
                 if(isMax(queue)) {
-                    if(queue.get(0).index == targetIndex) {
+                    if(queue.getFirst().index == targetIndex) {
                         result[i] = count;
                         break;
                     } else {
