@@ -2,45 +2,56 @@ package kakao;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 
-public class Kakao_2019_winter_intern_02 {
+public class Kakao_2019_winter_intern_03 {
 
-    public static int[] solution(String s) {
-        int[] answer = {};
-        String[] tuples = s.substring(2,s.length()-2).replace("},{","-").split("-");
-        ArrayList<String> result = new ArrayList<String>();
-        Arrays.sort(tuples, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.length() - o2.length();
-            }
-        });
+    static int answer = 0;
+    static ArrayList<String> list;
 
-        for(int i=0; i<tuples.length; i++) {
-            String[] temp = tuples[i].split(",");
-            for(int j=0; j<temp.length; j++) {
-                if(!result.contains(temp[j])) {
-                    result.add(temp[j]);
-                }
-            }
-        }
-
-        answer = new int[result.size()];
-        for(int i=0; i<result.size(); i++) {
-            answer[i] = Integer.parseInt(result.get(i));
-        }
-
+    public static int solution(String[] user_id, String[] banned_id) {
+        boolean[] visited = new boolean[user_id.length];
+        list = new ArrayList<>();
+        dfs(0, visited, user_id, banned_id);
         return answer;
+    }
+
+    private static void dfs (int v, boolean[] visited, String[] user_id, String[] banned_id) {
+        if (v == user_id.length) {
+            StringBuilder sb = new StringBuilder();
+            for(int i=0; i<visited.length; i++) {
+                if (visited[i] == true) sb.append("1");
+                else sb.append("0");
+            }
+            if (!list.contains(sb.toString())) {
+                list.add(sb.toString());
+                answer++;
+            }
+            return;
+        }
+
+        for (int i = 0; i < user_id.length; i++) {
+            // i번째 원소가 단계에서 사용되지 않았을 경우 bangmoon[i] == false이다.
+            if (visited[i] == false && "11010".charAt(i) == '1') {
+                visited[i] = true;
+                dfs(v + 1, visited, user_id, banned_id);
+                visited[i] = false;
+            }
+        }
+
+
     }
 
 
 
     public static void main(String[] args) {
+        String[] user_id1 = {"frodo", "fradi", "crodo", "abc123", "frodoc"};
+        String[] banned_id1 = {"fr*d*", "abc1**"};// 2
+        String[] user_id2 = {"frodo", "fradi", "crodo", "abc123", "frodoc"};
+        String[] banned_id2 = {"*rodo", "*rodo", "******"}; // 2
+        String[] user_id3 = {"frodo", "fradi", "crodo", "abc123", "frodoc"};
+        String[] banned_id3 = {"fr*d*", "*rodo", "******", "******"}; // 3
 
-        String s1 = "{{2},{2,1},{2,1,3},{2,1,3,4}}"; // [2, 1, 3, 4]
-        String s2 = "{{1,2,3},{2,1},{1,2,4,3},{2}}"; // [2, 1, 3, 4]
-        String s3 = "{{20,111},{111}}"; // 	[111, 20]
-        System.out.println(solution(s3));
+        System.out.println(solution(user_id1, banned_id1));
+
     }
 }

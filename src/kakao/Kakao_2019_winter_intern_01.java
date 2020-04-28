@@ -2,7 +2,7 @@ package kakao;
 
 import java.util.Stack;
 
-public class Kakao_2020_winter_intern_01 {
+public class Kakao_2019_winter_intern_01 {
 
     private static int solution(int[][] board, int[] moves) {
         int answer = 0;

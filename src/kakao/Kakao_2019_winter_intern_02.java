@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Kakao_2020_winter_intern_02 {
+public class Kakao_2019_winter_intern_02 {
 
     public static int[] solution(String s) {
         int[] answer = {};
