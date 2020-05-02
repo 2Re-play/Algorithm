@@ -2,7 +2,7 @@ package kakao;
 
 import java.util.ArrayList;
 
-public class Kakao_2019_winter_intern_04 {
+public class Kakao_2019_winter_intern_04_01 {
 
     private static long[] solution(long k, long[] room_number) {
         long[] answer = new long[room_number.length];
