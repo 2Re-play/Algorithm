@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="" />
+    <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,41 +38,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="195" />
+          <entry key="java" value="196" />
           <entry key="js" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="195" />
+          <entry key="JAVA" value="196" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="10" />
-          <entry key="java" value="80474" />
+          <entry key="dummy" value="15" />
+          <entry key="java" value="81180" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="80474" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="JAVA" value="81180" />
+          <entry key="PLAIN_TEXT" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2798.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/baekJoon/BurteForce/B_2231.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,13 +137,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04.java">
+        <entry file="file://$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04_01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="69">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
               <folding>
                 <element signature="e#253#259#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04_02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -188,8 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/baekJoon/DP/B_9461.java" />
-        <option value="$PROJECT_DIR$/src/baekJoon/DP/B_11052.java" />
         <option value="$PROJECT_DIR$/src/Num1.java" />
         <option value="$PROJECT_DIR$/src/NUM2.java" />
         <option value="$PROJECT_DIR$/src/NUM3.java" />
@@ -239,6 +240,8 @@
         <option value="$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_02.java" />
         <option value="$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_03.java" />
         <option value="$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04.java" />
+        <option value="$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04_01.java" />
+        <option value="$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04_02.java" />
       </list>
     </option>
   </component>
@@ -308,7 +311,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jaehyun/dev/Jay's Algorithm/src/baekJoon/BurteForce/B_2309.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588402884816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588407762273" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -335,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Kakao_2019_winter_intern_04">
+  <component name="RunManager" selected="Application.Kakao_2019_winter_intern_04_02">
     <configuration name="Kakao_2019_winter_intern_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kakao.Kakao_2019_winter_intern_01" />
       <module name="Jay's Algorithm" />
@@ -375,8 +378,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kakao_2019_winter_intern_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kakao.Kakao_2019_winter_intern_04" />
+    <configuration name="Kakao_2019_winter_intern_04_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kakao.Kakao_2019_winter_intern_04_01" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -388,12 +391,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b_1182" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJoon.BurteForce.b_1182" />
+    <configuration name="Kakao_2019_winter_intern_04_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kakao.Kakao_2019_winter_intern_04_02" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="baekJoon.BurteForce.*" />
+          <option name="PATTERN" value="kakao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,19 +405,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.b_1182" />
       <item itemvalue="Application.Kakao_2019_winter_intern_01" />
       <item itemvalue="Application.Kakao_2019_winter_intern_02" />
       <item itemvalue="Application.Kakao_2019_winter_intern_03" />
-      <item itemvalue="Application.Kakao_2019_winter_intern_04" />
+      <item itemvalue="Application.Kakao_2019_winter_intern_04_01" />
+      <item itemvalue="Application.Kakao_2019_winter_intern_04_02" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Kakao_2019_winter_intern_04" />
+        <item itemvalue="Application.Kakao_2019_winter_intern_04_02" />
+        <item itemvalue="Application.Kakao_2019_winter_intern_04_01" />
         <item itemvalue="Application.Kakao_2019_winter_intern_03" />
         <item itemvalue="Application.Kakao_2019_winter_intern_02" />
         <item itemvalue="Application.Kakao_2019_winter_intern_01" />
-        <item itemvalue="Application.b_1182" />
       </list>
     </recent_temporary>
   </component>
@@ -461,12 +464,12 @@
       <workItem from="1587566066991" duration="318000" />
       <workItem from="1587652287857" duration="239000" />
       <workItem from="1587801259450" duration="19041000" />
-      <workItem from="1588334224104" duration="1282000" />
+      <workItem from="1588334224104" duration="4403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254760000" />
+    <option name="totallyTimeSpent" value="257881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,7 +484,7 @@
     <frame x="0" y="23" width="1680" height="967" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1929182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1929182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,15 +494,15 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34285715" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37272727" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.37257144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32914287" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.30171427" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.30171427" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.325" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32457143" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -765,13 +768,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_2163.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/baekJoon/DP/B_11722.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1113,10 +1109,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04.java">
+    <entry file="file://$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04_02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kakao/Kakao_2019_winter_intern_04_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
           <folding>
             <element signature="e#253#259#0" expanded="true" />
           </folding>
