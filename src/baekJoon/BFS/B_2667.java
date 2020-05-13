@@ -4,6 +4,7 @@ import java.util.*;
 
 public class B_2667 {
 
+
     // 단지번호붙이기
     private static ArrayList<Integer> list = new ArrayList<Integer>();
     private static int[][] map;
