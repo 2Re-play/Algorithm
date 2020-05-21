@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ContainsDuplicate_217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baekJoon/BFS/B_1012.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +198,8 @@
       <workItem from="1589466758296" duration="824000" />
       <workItem from="1589716874944" duration="295000" />
       <workItem from="1589804959041" duration="280000" />
-      <workItem from="1589862627755" duration="262000" />
+      <workItem from="1589862627755" duration="536000" />
+      <workItem from="1590050167095" duration="253000" />
     </task>
     <servers />
   </component>
@@ -215,22 +216,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1589862877760">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1589937881839">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589862877760" />
-    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1589862877759">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881839" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1589937881838">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589862877759" />
-    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1589862877758">
+    <state width="1878" height="303" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881838" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1589937881837">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589862877758" />
-    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1589862877760">
+    <state width="1878" height="303" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881837" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1589937881839">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="303" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589862877760" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881839" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
