@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/programmers/P_findSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/P_origami.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P_findSquare">
+  <component name="RunManager" selected="Application.P_origami">
     <configuration name="B_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJoon.BFS.B_2667" />
       <module name="Jay's Algorithm" />
@@ -88,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_MockExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.P_MockExam" />
+    <configuration name="P_findSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.P_findSquare" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_findSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.P_findSquare" />
+    <configuration name="P_origami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.P_origami" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.P_MockExam" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.B_2667" />
       <item itemvalue="Application.ContainsDuplicate_217" />
       <item itemvalue="Application.P_findSquare" />
+      <item itemvalue="Application.P_origami" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P_origami" />
         <item itemvalue="Application.P_findSquare" />
         <item itemvalue="Application.ContainsDuplicate_217" />
         <item itemvalue="Application.B_2667" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.P_MockExam" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +200,7 @@
       <workItem from="1589804959041" duration="280000" />
       <workItem from="1589862627755" duration="536000" />
       <workItem from="1590050167095" duration="470000" />
-      <workItem from="1590075484417" duration="1959000" />
+      <workItem from="1590075484417" duration="3578000" />
     </task>
     <servers />
   </component>
@@ -217,22 +217,26 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1589937881839">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom" timestamp="1590112942928">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="303" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881839" />
-    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1589937881838">
+    <state width="1878" height="303" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590112942928" />
+    <state width="1878" height="303" key="GridCell.Tab.0.center" timestamp="1590112942927">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="303" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881838" />
-    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1589937881837">
+    <state width="1878" height="303" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590112942927" />
+    <state width="1878" height="303" key="GridCell.Tab.0.left" timestamp="1590112942926">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="303" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881837" />
-    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1589937881839">
+    <state width="1878" height="303" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590112942926" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right" timestamp="1590112942927">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="303" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881839" />
+    <state width="1878" height="303" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590112942927" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
