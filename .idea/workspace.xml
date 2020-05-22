@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/programmers/P_EnglishEnding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Jay's Algorithm/programmers/P_origami.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Jay's Algorithm/programmers/P_origami.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +60,7 @@
       <recent name="$PROJECT_DIR$/src/programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.P_EnglishEnding">
-    <configuration name="B_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="baekJoon.BFS.B_2667" />
-      <module name="Jay's Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="baekJoon.BFS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.P_JumpAndTeleportation">
     <configuration name="ContainsDuplicate_217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.ContainsDuplicate_217" />
       <module name="Jay's Algorithm" />
@@ -91,6 +76,19 @@
     </configuration>
     <configuration name="P_EnglishEnding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.P_EnglishEnding" />
+      <module name="Jay's Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P_JumpAndTeleportation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.P_JumpAndTeleportation" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -129,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.B_2667" />
       <item itemvalue="Application.ContainsDuplicate_217" />
       <item itemvalue="Application.P_findSquare" />
       <item itemvalue="Application.P_origami" />
       <item itemvalue="Application.P_EnglishEnding" />
+      <item itemvalue="Application.P_JumpAndTeleportation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P_JumpAndTeleportation" />
         <item itemvalue="Application.P_EnglishEnding" />
         <item itemvalue="Application.P_origami" />
         <item itemvalue="Application.P_findSquare" />
         <item itemvalue="Application.ContainsDuplicate_217" />
-        <item itemvalue="Application.B_2667" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +199,7 @@
       <workItem from="1589804959041" duration="280000" />
       <workItem from="1589862627755" duration="536000" />
       <workItem from="1590050167095" duration="470000" />
-      <workItem from="1590075484417" duration="6749000" />
+      <workItem from="1590075484417" duration="7896000" />
     </task>
     <servers />
   </component>
@@ -218,46 +216,46 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="331" key="GridCell.Tab.0.bottom" timestamp="1590129532289">
+    <state width="1878" height="152" key="GridCell.Tab.0.bottom" timestamp="1590129809424">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.23.1680.966@0.23.1680.966" timestamp="1590113801921" />
     <state width="1878" height="303" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881839" />
-    <state width="1878" height="331" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129532289" />
-    <state width="1878" height="331" key="GridCell.Tab.0.center" timestamp="1590129532288">
+    <state width="1878" height="152" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129809424" />
+    <state width="1878" height="152" key="GridCell.Tab.0.center" timestamp="1590129809423">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="303" key="GridCell.Tab.0.center/0.23.1680.966@0.23.1680.966" timestamp="1590113801920" />
     <state width="1878" height="303" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881838" />
-    <state width="1878" height="331" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129532288" />
-    <state width="1878" height="331" key="GridCell.Tab.0.left" timestamp="1590129532288">
+    <state width="1878" height="152" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129809423" />
+    <state width="1878" height="152" key="GridCell.Tab.0.left" timestamp="1590129809422">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="303" key="GridCell.Tab.0.left/0.23.1680.966@0.23.1680.966" timestamp="1590113801920" />
     <state width="1878" height="303" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881837" />
-    <state width="1878" height="331" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129532288" />
-    <state width="1878" height="331" key="GridCell.Tab.0.right" timestamp="1590129532289">
+    <state width="1878" height="152" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129809422" />
+    <state width="1878" height="152" key="GridCell.Tab.0.right" timestamp="1590129809423">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state width="1638" height="303" key="GridCell.Tab.0.right/0.23.1680.966@0.23.1680.966" timestamp="1590113801921" />
     <state width="1878" height="303" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.965@1680.23.1920.1057" timestamp="1589937881839" />
-    <state width="1878" height="331" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129532289" />
-    <state width="1878" height="331" key="GridCell.Tab.1.bottom" timestamp="1590129532399">
+    <state width="1878" height="152" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129809423" />
+    <state width="1878" height="331" key="GridCell.Tab.1.bottom" timestamp="1590129700755">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129532399" />
-    <state width="1878" height="331" key="GridCell.Tab.1.center" timestamp="1590129532398">
+    <state width="1878" height="331" key="GridCell.Tab.1.bottom/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129700755" />
+    <state width="1878" height="331" key="GridCell.Tab.1.center" timestamp="1590129700754">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129532398" />
-    <state width="1878" height="331" key="GridCell.Tab.1.left" timestamp="1590129532397">
+    <state width="1878" height="331" key="GridCell.Tab.1.center/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129700754" />
+    <state width="1878" height="331" key="GridCell.Tab.1.left" timestamp="1590129700754">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129532397" />
-    <state width="1878" height="331" key="GridCell.Tab.1.right" timestamp="1590129532399">
+    <state width="1878" height="331" key="GridCell.Tab.1.left/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129700754" />
+    <state width="1878" height="331" key="GridCell.Tab.1.right" timestamp="1590129700755">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="331" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129532399" />
+    <state width="1878" height="331" key="GridCell.Tab.1.right/1680.23.1920.1057/0.23.1680.966@1680.23.1920.1057" timestamp="1590129700755" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,13 +557,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/programmers/P_EnglishEnding.java</url>
-          <line>13</line>
+          <line>24</line>
           <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/programmers/P_EnglishEnding.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="184" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
