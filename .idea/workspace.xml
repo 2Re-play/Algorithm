@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekJoon/BFS/B_1012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/programmers/P_findSquare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <recent name="$PROJECT_DIR$/src/programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContainsDuplicate_217">
+  <component name="RunManager" selected="Application.P_findSquare">
     <configuration name="B_2667" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJoon.BFS.B_2667" />
       <module name="Jay's Algorithm" />
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kakao_2020_summer_intern_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kakao.Kakao_2020_summer_intern_01" />
+    <configuration name="P_MockExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.P_MockExam" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kakao.*" />
+          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P_MockExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.P_MockExam" />
+    <configuration name="P_findSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.P_findSquare" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Kakao_2020_summer_intern_01" />
       <item itemvalue="Application.P_MockExam" />
       <item itemvalue="Application.TwoSum" />
       <item itemvalue="Application.B_2667" />
       <item itemvalue="Application.ContainsDuplicate_217" />
+      <item itemvalue="Application.P_findSquare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P_findSquare" />
         <item itemvalue="Application.ContainsDuplicate_217" />
         <item itemvalue="Application.B_2667" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.P_MockExam" />
-        <item itemvalue="Application.Kakao_2020_summer_intern_01" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +199,8 @@
       <workItem from="1589716874944" duration="295000" />
       <workItem from="1589804959041" duration="280000" />
       <workItem from="1589862627755" duration="536000" />
-      <workItem from="1590050167095" duration="253000" />
+      <workItem from="1590050167095" duration="470000" />
+      <workItem from="1590075484417" duration="1959000" />
     </task>
     <servers />
   </component>
