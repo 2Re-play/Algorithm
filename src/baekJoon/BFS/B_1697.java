@@ -8,7 +8,7 @@ public class B_1697 {
 
 
     static boolean[] visited = new boolean[100001];
-    static int[] distance = new int[100001];
+    static int[] time = new int[100001];
     static int[] move = { 1, -1, 2 };
 
     private static void solution () {
@@ -27,7 +27,7 @@ public class B_1697 {
         Queue<Integer> queue = new LinkedList<Integer>();
         queue.add(n);
         visited[n] = true;
-        distance[n] = 1;
+        time[n] = 0;
 
         while(!queue.isEmpty()) {
             int num = queue.poll();
@@ -43,11 +43,11 @@ public class B_1697 {
                 if(next <= 100000 && -1 < next && !visited[next]) {
                     queue.add(next);
                     visited[next] = true;
-                    distance[next] = distance[num] + 1;
+                    time[next] = time[num] + 1;
                 }
             }
         }
-        System.out.println(distance[k] - 1);
+        System.out.println(time[k]);
     }
 
     public static void main(String[] args) {
