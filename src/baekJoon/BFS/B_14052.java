@@ -12,7 +12,6 @@ public class B_14052 {
     static int M;
     static int[][] map;
     static int[][] tempMap;
-    static boolean[][] visited;
     static int answer = 0;
 
     public static void solution () {
@@ -22,7 +21,6 @@ public class B_14052 {
         M = sc.nextInt();
         map = new int[N][M];
         tempMap = new int[N][M];
-        visited = new boolean[N][M];
 
         for(int i=0; i<N; i++) {
             for(int j=0; j<M; j++) {
@@ -32,16 +30,14 @@ public class B_14052 {
 
         for(int i=0; i<N; i++) {
             for(int j=0; j<M; j++) {
-                if(tempMap[i][j] == 0) {
+                if(map[i][j] == 0) {
                     tempMap[i][j] = 1; // 벽 하나 세우기
                     dfs(1);
                     tempMap[i][j] = 0;
                 }
             }
         }
-
         System.out.println(answer);
-
     }
 
     public static void dfs (int count) {
@@ -63,6 +59,7 @@ public class B_14052 {
     public static void bfs () {
         Queue<int[]> queue = new LinkedList<int[]>();
         int[][] virusMap = new int[N][M];
+        boolean[][] visited = new boolean[N][M];
 
         for(int i=0; i<N; i++) {
             for(int j=0; j<M; j++) {
@@ -70,10 +67,10 @@ public class B_14052 {
             }
         }
 
-        for(int i=0; i<N; i++) {
-            for(int j=0; j<M; j++) {
-                if(virusMap[i][j] == 2) {
-                    queue.add(new int[] {i, j});
+        for(int x=0; x<N; x++) {
+            for(int y=0; y<M; y++) {
+                if(virusMap[x][y] == 2) {
+                    queue.add(new int[] {x, y});
                 }
             }
         }
@@ -103,16 +100,12 @@ public class B_14052 {
         int cnt = 0;
         for(int i = 0; i < N; i++) {
             for(int j = 0; j < M; j++){
-//                System.out.print(tempMap[i][j]);
-                if(virusMap[i][j] == 0) cnt ++;
+                if(virusMap[i][j] == 0) {
+                    cnt++;
+                }
             }
-//            System.out.println();
         }
-//        System.out.println();
-
-
-
-        answer = Math.max(cnt, answer);
+        answer = Math.max(answer, cnt);
     }
 
     public static void main(String[] args) {
