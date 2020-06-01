@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef7e06d-f106-4de5-a3cd-8bc15e3b0f74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/baekJoon/BFS/B_11724.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/baekJoon/BFS/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/baekJoon/BFS/B_11724.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/baekJoon/BFS/B_11724.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +63,22 @@
       <recent name="$PROJECT_DIR$/src/programmers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.B_14052">
+  <component name="RunManager" selected="Application.B_11724">
     <configuration name="B_1012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekJoon.BFS.B_1012" />
+      <module name="Jay's Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekJoon.BFS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekJoon.BFS.B_11724" />
       <module name="Jay's Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -117,27 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test2" />
-      <module name="Jay's Algorithm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Test2" />
       <item itemvalue="Application.B_7576" />
       <item itemvalue="Application.B_1697" />
       <item itemvalue="Application.B_1012" />
       <item itemvalue="Application.B_14052" />
+      <item itemvalue="Application.B_11724" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.B_11724" />
         <item itemvalue="Application.B_14052" />
         <item itemvalue="Application.B_1012" />
         <item itemvalue="Application.B_1697" />
         <item itemvalue="Application.B_7576" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +204,7 @@
       <workItem from="1590050167095" duration="470000" />
       <workItem from="1590075484417" duration="17613000" />
       <workItem from="1590419014137" duration="23286000" />
-      <workItem from="1590741518227" duration="1622000" />
+      <workItem from="1590741518227" duration="2844000" />
     </task>
     <servers />
   </component>
@@ -220,6 +225,10 @@
       <screen x="0" y="23" width="1680" height="967" />
     </state>
     <state x="432" y="178" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-118.-1057.1920.1057/0.23.1680.967@0.23.1680.967" timestamp="1590659625815" />
+    <state x="2258" y="264" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1591021762454">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2258" y="264" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1680.23.1920.1057/0.23.1680.967@1680.23.1920.1057" timestamp="1591021762454" />
     <state width="1638" height="296" key="GridCell.Tab.0.bottom" timestamp="1590729754176">
       <screen x="1680" y="23" width="1920" height="991" />
     </state>
