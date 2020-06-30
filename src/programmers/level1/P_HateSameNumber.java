@@ -1,10 +1,11 @@
-package programmers;
+package programmers.level1;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashSet;
 
-public class P_level1_HateSameNumber {
+public class P_HateSameNumber {
 
     // 프로그래머스 level1 같은 숫자는 싫어
     private static int[] solution (int[] arr) {
